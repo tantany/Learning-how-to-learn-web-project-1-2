@@ -202,7 +202,6 @@
   font-weight: bold;
   width: 770px;
   text-align: center;
-  white-space: nowrap;
 }
 
 .feynman__subtitle {
@@ -328,12 +327,17 @@
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
+  white-space: nowrap;
+}
+
+.footer__list-items {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .footer__column-links {
-  margin: 0 0 16px 0;
-  padding: 0;
-  list-style: none;
+  margin: 0;
   text-decoration: none;
   color: gray;
   line-height: 30px;
