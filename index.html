@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="First project through Yandex Web course">
   <meta name="keywords" content="html, css">
@@ -20,7 +19,7 @@
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
-      <!--First section has two columns with a heading and a column of text devided to three-->
+      <!--This section has two columns with a heading and a column of text devided to three-->
       <section class="description">
         <div class="two-columns">
           <h3 class="two-columns__brief">The main problem with education</h3>
@@ -31,9 +30,73 @@
           </div>
         </div>
       </section>
-      <!--Second section has a white table, two rows and four cells-->
+      <!--This section has cards in it-->
+      <section class="techniques">
+        <!--Heading and sub-heading-->
+        <h2 class="section-title">Learning Techniques</h2>
+        <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+        <div class="cards">
+          <div class="cards__item">
+            <img class="cards__image" src="./images/attention.png" alt="attention">
+            <h4 class="cards__title">Two Ways of Thinking</h4>
+            <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/recall.png" alt="recall">
+            <h4 class="cards__title">Recall</h4>
+            <p class="cards__description">Improving your ability to remember key bits of information help to connect different part of the brain.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/interliving.png" alt="interliving">
+            <h4 class="cards__title">Interleaving</h4>
+            <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/question.png" alt="question">
+            <h4 class="cards__title">Questions</h4>
+            <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/competence.png" alt="competence">
+            <h4 class="cards__title">Illusion of Competence</h4>
+            <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+          </div>
+        </div>
+      </section>
+      <!--This section has videos-->
+      <section class="video">
+        <h2 class="section-title">TED talks</h2>
+        <p class="section-subtitle">For lovers of procrastination</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+        </div>
+      </section>
+      <!--This section has two columns with a heading and a column of text devided to three-->
+      <section class="oakley">
+        <div class="two-columns">
+          <h3 class="two-columns__brief">Barbara Oakley’s story.</h3>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a
+              humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after
+              school she enlisted in the army, who sent her to learn Russian. After several years of service,
+              during which she rose to the rank of Captain, Barbara left the army and decided to study
+              engineering. In was during this time that she developed her learning methodology as she was
+              forced to reprogram her brain for a different kind of learning. It turns out that when something
+              doesn't come naturally to you, having to work hard to gain the knowledge that other people
+              may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.</p>
+          </div>
+        </div>
+      </section>
+      <!--The section has a photo, heading and link-->
+      <section class="feynman">
+        <h2 class="feynman__title">The&nbsp;Feynman Technique</h2>
+        <p class="feynman__subtitle">Learn without forgetting.</p>
+        <a class="feynman__link">More →</a>
+      </section>
+      <!--This section has a white table, two rows and four cells-->
       <section class="digits">
-        <!--Headings-->
+        <!--Heading and sub-heading-->
         <h2 class="section-title">Facts and figures</h2>
         <p class="section-subtitle">On learning and the brain</p>
         <!--Table-->
@@ -55,7 +118,7 @@
             <h4 class="table__heading">500 trillion</h4>
             <p class="table__text">The number of nerve synapses responsible for learning in an adult human</p>
           </div>
-          <!--Second row-->
+          <!--Next row-->
           <div class="table__cell">
             <h4 class="table__heading">420 million</h4>
             <p class="table__text">The number of adults under 25 with insufficient education for finding employment</p>
@@ -75,13 +138,24 @@
           </div>
         </div>
       </section>
-      <!--Third section has a photo, heading and link-->
-      <section class="feynman">
-        <h2 class="feynman__title">The&nbsp;Feynman Technique</h2>
-        <p class="feynman__subtitle">Learn without forgetting.</p>
-        <a class="feynman__link">More →</a>
+      <!--This section many rows and three columns-->
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Salman Khan</p>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <p class="khan__quote">Khan's passion and innovation is transforming learning for millions of
+          students worldwide. The One World Schoolhouse is a must-read for all
+          who are committed to improving education so students everywhere can
+          gain the skills and knowledge to be successful in school, careers and life.</p>
+          <p class="quote-author">George Lucas</p>
+          <p class="quote-author-subline">Filmmaker</p>
+          <div class="khan__book-container">
+            <img src="./images/book.png" class="khan__book-pic" alt="book">
+            <a href="#" class="khan__buy-link">Buy book →</a>
+          </div>
+        </div>
       </section>
-      <!--Forth section has a table used with modifiers with black theme and and .svg object-->
+      <!--This section has a table used with modifiers with black theme and and .svg object-->
       <section class="kaufman">
         <!--The svg object-->
         <div class="kaufman__triangle"></div>
@@ -110,7 +184,7 @@
               <h4 class="table__heading">5</h4>
               <p class="table__text">Obtain critical tools.</p>
             </div>
-            <!--Second row-->
+            <!--Next row-->
             <div class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">6</h4>
               <p class="table__text">Eliminate barriers to practice.</p>
@@ -134,15 +208,28 @@
         </div>
       </section>
     </main>
+    <!--This section has a white table, two rows and four cells-->
+    <section class="resources">
+      <!--Heading and sub-heading-->
+      <h2 class="section-title">Useful resources</h2>
+      <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+      <!--resources-->
+      <div class="resources__logo-zone">
+        <img class="resources__logo" src="./images/logo/tedED.png" alt="tedED">
+        <img class="resources__logo" src="./images/logo/Medium.png" alt="Medium">
+        <img class="resources__logo" src="./images/logo/dezeen.png" alt="dezeen">
+        <img class="resources__logo" src="./images/logo/goodreads.png" alt="goodreads">
+      </div>
+    </section>
     <!--Footer with three columns distributed between-->
     <footer class="footer">
       <div class="footer__columns">
-        <!--First column with logo and author-->
+        <!--Column with logo and author-->
         <div class="footer__columns footer__columns_content_copyright">
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">© 2020 Tanya Margulis</p>
         </div>
-        <!--Second column with links-->
+        <!--Column with links-->
         <div class="footer__columns footer__columns_content_info">
           <h4 class="footer__column-heading">About Practicum by Yandex</h4>
           <ul class="footer__list-items">
@@ -151,11 +238,11 @@
             <li class="footer__list-items"><a href="#" class="footer__column-links">Mentors</a></li>
           </ul>
         </div>
-        <!--Third column with links-->
+        <!--Column with links-->
         <div class="footer__columns footer__columns_content_social">
           <h4 class="footer__column-heading">Social media</h4>
           <ul class="footer__list-items">
-            <!--Those two includes an icon and website name as a link in a list-->
+            <!--Includes an icon and website name as a link in a list-->
             <li class="footer__list-items"><a href="#" class="footer__column-links"><img class="footer__social-icon" src="./images/facebook_white.svg" alt="facebook-icon" height="16" width="16">Facebook</a></li>
             <li class="footer__list-items"><a href="#" class="footer__column-links"><img class="footer__social-icon" src="./images/instagram_white.svg" alt="facebook-icon" height="16" width="16">Instagram</a></li>
           </ul>

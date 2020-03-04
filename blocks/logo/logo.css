@@ -1,0 +1,11 @@
+/*modifiers*/
+@import url(./_place/logo_place_header.css);
+@import url(./_place/logo_place_footer.css);
+
+.logo {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
+}
