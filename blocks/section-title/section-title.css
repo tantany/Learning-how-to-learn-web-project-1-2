@@ -4,7 +4,7 @@
 .section-title {
   text-align: center;
   width: 60%;
-  line-height: 69px;
+  line-height: 69px; /*I've re-checked sprint 1 brief and I see 69px and not 1.15*/
   font-size: 60px;
   font-weight: bold;
   margin: auto;

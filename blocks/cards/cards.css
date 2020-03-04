@@ -9,4 +9,7 @@
   flex-wrap: wrap;
   width: 920px;
   margin: auto;
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
 }

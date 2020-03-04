@@ -4,6 +4,6 @@
   position: relative;
   overflow: hidden;
   padding: 90px 0;
-  z-index: -2;
+  z-index: 0;
   background-color: #1F1F1F;
 }

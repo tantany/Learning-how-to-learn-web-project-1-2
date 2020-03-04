@@ -3,6 +3,8 @@
   margin-right: 100px;
   width: 240px;
   text-align: center;
+  padding: 0;
+  list-style: none;
 }
 
 .cards__item:nth-of-type(3n) {
